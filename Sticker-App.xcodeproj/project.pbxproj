@@ -11,8 +11,18 @@
 		32FE9E8B1DBD0F2400A33FCB /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 32FE9E8A1DBD0F2400A33FCB /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		32FE9E901DBD0F2400A33FCB /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32FE9E8F1DBD0F2400A33FCB /* Messages.framework */; };
 		32FE9E931DBD0F2400A33FCB /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9E921DBD0F2400A33FCB /* MessagesViewController.swift */; };
-		32FE9E961DBD0F2400A33FCB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9E941DBD0F2400A33FCB /* MainInterface.storyboard */; };
 		32FE9E981DBD0F2400A33FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9E971DBD0F2400A33FCB /* Assets.xcassets */; };
+		32FE9EA41DBD122700A33FCB /* StickerBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FE9EA31DBD122700A33FCB /* StickerBrowserViewController.swift */; };
+		32FE9EA61DBD34DC00A33FCB /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EA51DBD34DC00A33FCB /* horse.png */; };
+		32FE9EA81DBD34F900A33FCB /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EA71DBD34F900A33FCB /* cat.png */; };
+		32FE9EAA1DBD351600A33FCB /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EA91DBD351600A33FCB /* dog.png */; };
+		32FE9EAB1DBD35B200A33FCB /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EA91DBD351600A33FCB /* dog.png */; };
+		32FE9EAC1DBD35B400A33FCB /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EA71DBD34F900A33FCB /* cat.png */; };
+		32FE9EAD1DBD35B700A33FCB /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EA51DBD34DC00A33FCB /* horse.png */; };
+		32FE9EB01DBD375200A33FCB /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EAF1DBD375200A33FCB /* sheep.png */; };
+		32FE9EB11DBD379F00A33FCB /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EAF1DBD375200A33FCB /* sheep.png */; };
+		32FE9EB31DBD37D100A33FCB /* goat.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EB21DBD37D100A33FCB /* goat.png */; };
+		32FE9EB51DBD37EA00A33FCB /* cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 32FE9EB41DBD37EA00A33FCB /* cow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +56,16 @@
 		32FE9E8A1DBD0F2400A33FCB /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE9E8F1DBD0F2400A33FCB /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		32FE9E921DBD0F2400A33FCB /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
-		32FE9E951DBD0F2400A33FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		32FE9E971DBD0F2400A33FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32FE9E991DBD0F2400A33FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FE9EA31DBD122700A33FCB /* StickerBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerBrowserViewController.swift; sourceTree = "<group>"; };
+		32FE9EA51DBD34DC00A33FCB /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse.png; sourceTree = "<group>"; };
+		32FE9EA71DBD34F900A33FCB /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		32FE9EA91DBD351600A33FCB /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		32FE9EAE1DBD361200A33FCB /* MessagesExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MessagesExtension.entitlements; sourceTree = "<group>"; };
+		32FE9EAF1DBD375200A33FCB /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheep.png; sourceTree = "<group>"; };
+		32FE9EB21DBD37D100A33FCB /* goat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goat.png; sourceTree = "<group>"; };
+		32FE9EB41DBD37EA00A33FCB /* cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +87,12 @@
 				32FE9E911DBD0F2400A33FCB /* MessagesExtension */,
 				32FE9E8E1DBD0F2400A33FCB /* Frameworks */,
 				32FE9E811DBD0F2300A33FCB /* Products */,
+				32FE9EA51DBD34DC00A33FCB /* horse.png */,
+				32FE9EA71DBD34F900A33FCB /* cat.png */,
+				32FE9EA91DBD351600A33FCB /* dog.png */,
+				32FE9EAF1DBD375200A33FCB /* sheep.png */,
+				32FE9EB21DBD37D100A33FCB /* goat.png */,
+				32FE9EB41DBD37EA00A33FCB /* cow.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +125,9 @@
 		32FE9E911DBD0F2400A33FCB /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				32FE9EAE1DBD361200A33FCB /* MessagesExtension.entitlements */,
 				32FE9E921DBD0F2400A33FCB /* MessagesViewController.swift */,
-				32FE9E941DBD0F2400A33FCB /* MainInterface.storyboard */,
+				32FE9EA31DBD122700A33FCB /* StickerBrowserViewController.swift */,
 				32FE9E971DBD0F2400A33FCB /* Assets.xcassets */,
 				32FE9E991DBD0F2400A33FCB /* Info.plist */,
 			);
@@ -166,6 +190,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 89ZGZ9G648;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -194,6 +223,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FE9E841DBD0F2300A33FCB /* Assets.xcassets in Resources */,
+				32FE9EB31DBD37D100A33FCB /* goat.png in Resources */,
+				32FE9EAA1DBD351600A33FCB /* dog.png in Resources */,
+				32FE9EA61DBD34DC00A33FCB /* horse.png in Resources */,
+				32FE9EB51DBD37EA00A33FCB /* cow.png in Resources */,
+				32FE9EB01DBD375200A33FCB /* sheep.png in Resources */,
+				32FE9EA81DBD34F900A33FCB /* cat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,8 +236,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FE9EB11DBD379F00A33FCB /* sheep.png in Resources */,
 				32FE9E981DBD0F2400A33FCB /* Assets.xcassets in Resources */,
-				32FE9E961DBD0F2400A33FCB /* MainInterface.storyboard in Resources */,
+				32FE9EAB1DBD35B200A33FCB /* dog.png in Resources */,
+				32FE9EAC1DBD35B400A33FCB /* cat.png in Resources */,
+				32FE9EAD1DBD35B700A33FCB /* horse.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FE9E931DBD0F2400A33FCB /* MessagesViewController.swift in Sources */,
+				32FE9EA41DBD122700A33FCB /* StickerBrowserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,17 +265,6 @@
 			targetProxy = 32FE9E8C1DBD0F2400A33FCB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		32FE9E941DBD0F2400A33FCB /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32FE9E951DBD0F2400A33FCB /* Base */,
-			);
-			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32FE9E9A1DBD0F2400A33FCB /* Debug */ = {
@@ -334,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = MessagesExtension/MessagesExtension.entitlements;
 				DEVELOPMENT_TEAM = 89ZGZ9G648;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -348,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = MessagesExtension/MessagesExtension.entitlements;
 				DEVELOPMENT_TEAM = 89ZGZ9G648;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
