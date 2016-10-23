@@ -35,28 +35,52 @@ class StickerBrowserViewController: MSStickerBrowserViewController {
     }
     
     private func makeStickerArray(bundle: Bundle, imageNames: [String]) {
+
+        // Tasks:
         
-            // For each image name...
-            imageNames.forEach {
-                
-                // 1. Get the location of the image as represented by an NSURL
-                guard let imageURLPath = bundle.url(forResource: $0, withExtension: "png") else {
-                    return
-                }
-                
-                // Using a Do-Catch statement...
-                do {
-                    // 2. Attempt to make a MSSticker instance at the location derived above.
-                    let sticker = try MSSticker(contentsOfFileURL: imageURLPath, localizedDescription: $0)
-                    
-                    // 2a. If the try succeeds, add that MSSticker object to the mutable stickerPack array.
-                    stickers.append(sticker)
-                } catch {
-                    
-                    // 2b. If the try fails, print the resulting error.
-                    print(error)
-                }
-            }
+            // 1. Iterate through the imageNames array using Array's forEach function.
+        
+                /**
+                    forEach { } example: 
+         
+                    Find out which numbers in an array are divisible by 3.
+         
+                     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                     var containsNumberDivisibleByFive = false
+                     
+                     numbers.forEach {
+                        let remainder = $0 % 3
+                        if remainder > 0 {
+                            containsNumberDivisibleByFive = false
+                        }
+                        else {
+                            containsNumberDivisibleByFive = true
+                        }
+                     }
+                 */
+        
+            // 2. For each image name make a URL which represents the path to the image...
+        
+                /**
+                    Example: 
+         
+                    imageNames.forEach {
+                        imageURLPath = bundle.url(forResource: "fileName", withExtension: "png")
+                    }
+                 */
+        
+            // 3. ...and then use that path to make a MSSticker object, and add each sticker you make to the stickers array.
+        
+                /**
+                    Example:
+         
+                     do {
+                        let sticker = try MSSticker(contentsOfFileURL: imageURLPath, localizedDescription: "imageURLPath")
+                        stickers.append(sticker)
+                     } catch {
+                        print(error)
+                     }
+                 */
     }
     
     //MARK: - MSStickerBrowserViewDataSource
