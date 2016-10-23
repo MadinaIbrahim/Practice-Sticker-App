@@ -14,9 +14,6 @@ class StickerBrowserViewController: MSStickerBrowserViewController {
     // An Array of MSStickers to show in the Sticker Browser.
     var stickers = [MSSticker]()
     
-    // An Array of Strings corresponding to the name each images is saved by in the Assets.xcassets directory.
-    let imageNames = ["image1", "image2", "image3"]
-
     // The root class of the app extension.
     let principalClass: MSMessagesAppViewController
     
