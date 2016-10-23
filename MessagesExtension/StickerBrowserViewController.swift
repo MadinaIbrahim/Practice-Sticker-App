@@ -22,7 +22,7 @@ class StickerBrowserViewController: MSStickerBrowserViewController {
      
      - parameter stickerSize: The Sticker size is used to control the display size of the stickers in the Sticker Browser View.
      - parameter bundle:      The bundle where sticker assets are located. We access assets (like images and fonts) via the app bundle. 
-     - parameter imageNames:  The full list of names sticker images are stored as. Each local image is saved with a specific name. We pull the image from the app bundle using the image's name.
+     - parameter imageNames:  The full list of sticker images file names. We will pull the image from the app bundle using the this String.
      */
     public init(stickerSize: MSStickerSize, bundle: Bundle, imageNames: [String], principalClass: MSMessagesAppViewController) {
         self.principalClass = principalClass
